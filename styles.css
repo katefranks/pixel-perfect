@@ -1,0 +1,108 @@
+h1 {
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+Google fonts:
+-You can select different fonts.
+-As you select them, it builds out a link tag on the right side.
+-copy and past this link tag to use in your html
+-Creating another link tag in the html. Link before YOUR css.
+-shows you how to add fonts:
+    font-family: 'Playfair Display' , serif;
+    font-family: 'Source Sans Pro' , sans-serif;
+
+Font Awesome:
+  -Go to homepage, click on how to use. Need to sign up.
+  -you can take icon and place it into your regular mark up
+  -ex: search Facebook
+  -At the top is code you would need to use in css to use in pseudo element (f39e)
+  - next to it is another option to use as an "icon" element which you can drop into your html. Use them as text, basically like you would a <p> tag.
+  -if throwing into a pseudo element this will be the content, need to use as a string and with /
+
+CDNJS:
+  - https://cdnjs.com/
+  -search for "font awesome"
+  -using font aswesome website instead will give you version 6 instead of 5.15.3, which will give you some more options.
+  -copy link tag
+  -this will be the href
+  -copy and paste that url
+
+*Pixel Perfect:
+  -box on top right, can toggle on and off.
+  -click "add your first layer"
+  -go into documents, navigate to the image you were given.
+  -open image and it will show up under layers
+  -x & y  need to be set to zero.   This will align at top and left edge of window
+  -arrow is browser size, you may need to change this, so that right edge matches up with the right edge of your browser.
+  -if screen shot was taken from YOUR computer- then it should match at 1.
+  -opacity will allow you to toggle back and forth between image you were given and what you're working on. Goal is to get it so that you can't tell a difference.
+  -tool helps you to recreate website and get it as close to pixel perfect as possible.
+  -may see a little bit of a difference as far as content of text, but font and spacing need to match.
+
+  -advice: don't spend extended amount of time on one element- like getting certain letters to line up
+  -don't spend entire day on header, go through it, create content, then go back and refactor.
+  -get the big pieces of your puzzle where they need to go, and then fill them in.
+
+  -bring in image, make sure 0 & 0 are set, image has slightly grey background, if you can see a sliver of white, then that's a sign that you may need to resize the image.
+
+  -resize images to make them fit what you need them for. If they're a clients, make copy & then re-size.
+ */
+
+/*
+FLEXBOX:
+
+.container {
+  border: 10px solid red;
+  display: flex;
+  height: 100VH;
+}
+
+.box {
+width: 300px;
+
+could also use width: 25%- it it's the entire viewport, and then you make them columns, this will create spaces in between. If you remove 25% it spreads them out.
+}
+
+-When you add "display: flex" default display for it's children will line them up in a row
+-VH viewport height;
+-display flex- width is 100% of PARENT
+-display: inline-flex  -width is 100% width of CONTENT
+-flex-direction: row (default is row, so it doesn't change anything)
+-flex-direction: colomn (stacks them in a column)
+-flex-direction: row-reverse;  (changes direction of content)
+-flex-direction: column-reverse;  (changes direction of content)
+-main axis vs cros axis for rows & columns (by default- flex direction row: main axis is left to right, cross axis is top to bottom)
+-flexbox wrap: wraps content. For row- left to right. For column- left to right.
+
+-box is child. If not enough room for their width, it resizes them. It will try to work with your width, but if not enough room it will resize so they fit.
+
+- ordering:
+    -The lower the number, the farther to the left it moves.
+    -Default order of children is 0. Any that don't have an order assigned will keep order 0
+
+    .box {
+    flex: 1;
+    This tells it to evenly distribute children.
+    }
+    .box3 {
+      flex: 2; (this will make this child 2x as big as the other children)
+      order: 2;
+    }
+    .box7 {
+      order: 3;
+    }
+    .box9 {
+      order: -1;
+    }
+
+ */
