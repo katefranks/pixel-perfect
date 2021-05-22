@@ -5,6 +5,7 @@ body {
   background: #F5F4F4;
   font-family: sans-serif;
   margin: 0px;
+  font-size:10px;
 }
 
 img {
@@ -39,17 +40,77 @@ header {
 }
 
 .article {
-  color: white;
   border: 1px solid blue;
-  font-size: 100px;
   height: 920px;
   width: 749px;
   text-align: center;
-  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
-  /* padding:10px; */
-  /* margin-right: 0px; */
   margin-bottom: 48px;
 
+}
+
+#header-gvl {
+  background-image: url(./images/greenville.jpeg);
+  height: 51.2%;
+}
+
+#header-kites {
+  background-image: url(./images/kites1.jpeg);
+  height: 51.2%;
+}
+
+#header-launch {
+  background-image: url(./images/launch.jpeg);
+  height: 51.2%;
+}
+
+#header-cofee {
+    background-image: url(./images/espresso.jpeg);
+    height: 51.2%;
+}
+
+#header-awesome {
+  background-image: url(./images/awesome1.jpeg);
+  height: 51.2%;
+}
+
+.section-title {
+  /* font: #CA5C3C; */
+  margin-top: 48px;
+  margin-bottom: 25px;
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+.article-content {
+  font-size: 14px;
+  margin-top: 25px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 40px;
+  line-height: 2;
+}
+
+.continue-reading {
+  /* font: #CA5C3C; */
+  margin-top: 45px;
+  margin-left: 290px;
+  margin-right: 290px;
+  margin-bottom: 40px;
+  padding: 14px;
+  border: 1px solid #CA5C3C;
+
+}
+
+.article-footer {
+  height: 85px;
+  border-top: 1px solid #E7E7E7;
 }
 
 .asides {
@@ -95,7 +156,8 @@ header {
 }
 
 .ig-photo {
-
+  height: 188px;
+  width: 12.5VW;
 }
 
 footer {
@@ -105,6 +167,14 @@ footer {
   /* background-color: #222222; */
 }
 
+#ig1 { background:#1abc9c;}
+#ig2 { background:#3498db;}
+#ig3 { background:#9b59b6;}
+#ig4 { background:#34495e;}
+#ig5 { background:#f1c40f;}
+#ig6 { background:#e67e22;}
+#ig7 { background:#e74c3c;}
+#ig8 { background:#bdc3c7;}
 
 
 /*
