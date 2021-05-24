@@ -4,25 +4,37 @@
 body {
   background: #F5F4F4;
   font-family: sans-serif;
+  color: #444444;
   margin: 0px;
   font-size:10px;
 }
 
 img {
   width: 100%;
+  /* opacity: 1.0; */
 }
 
-/* header {
-  display: inline-block;
-} */
+img:hover {
+  opacity: 0.5;
+}
 
 ul {
   padding: 0;
   list-style: none;
 }
+
+a {
+  color: #444444;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CA5C3C;
+}
+
 #main-header {
-  background: #F9F8F8;
-  border-bottom: 1px solid purple;
+  background: #FFFFFF;
+  border-bottom: 1px solid #E7E7E7;
   /* border-bottom: 1px solid #E7E7E7; */
   height: 60px;
   width: 100VW;
@@ -30,6 +42,7 @@ ul {
 
 #header-nav {
   display: inline-block;
+
   margin-top: 15px;
   margin-left: 150px;
 
@@ -38,9 +51,11 @@ ul {
 .nav-list {
   display: flex;
   width: 315px;
-  border: 1px solid goldenrod;
+  /* border: 1px solid goldenrod; */
   justify-content: space-between;
+  font-family: 'Lato', sans-serif;
 }
+
 
 
 .container {
@@ -59,12 +74,17 @@ ul {
 }
 
 .article {
-  border: 1px solid blue;
+  border: 1px solid #EAEAEA;
+  background: #FFFFFF;
   height: 920px;
   width: 749px;
   text-align: center;
   margin-bottom: 48px;
 
+}
+
+.article-header:hover {
+  opacity: 0.5;
 }
 
 #header-gvl {
@@ -96,7 +116,7 @@ ul {
   /* font: #CA5C3C; */
   margin-top: 48px;
   margin-bottom: 25px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 10px;
   letter-spacing: 1px;
   font-weight: bolder;
@@ -108,6 +128,7 @@ h2 {
 }
 
 .article-content {
+  font-style: 'Oswald', sans-serif;
   font-size: 14px;
   margin-top: 25px;
   margin-left: 45px;
@@ -117,7 +138,8 @@ h2 {
 }
 
 .continue-reading {
-  /* font: #CA5C3C; */
+  color: #CA5C3C;
+  /* text-decoration: none; */
   margin-top: 45px;
   margin-left: 290px;
   margin-right: 290px;
@@ -127,9 +149,17 @@ h2 {
 
 }
 
+.continue-reading:hover {
+  /* text-decoration: none; */
+  color: #444444;
+  border: 1px solid #444444;
+
+}
+
 .article-footer {
   height: 85px;
-  border-top: 1px solid #E7E7E7;
+  border-top: 1px solid #E2E2E2;
+  background: #FFFFFF;
 }
 
 .asides {
@@ -143,7 +173,8 @@ h2 {
 
 .aside {
   color: #444444;
-  border: 1px solid green;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
   height: 507px;
   width: 360px;
   margin-bottom: 38px;
@@ -166,6 +197,10 @@ h2 {
 #aside1-header {
   background-image: url(./images/fluorfield.jpeg);
   height: 182px;
+}
+
+#aside1-header:hover {
+  opacity: 0.5;
 }
 
 #aside1-h1 {
@@ -193,17 +228,21 @@ h2 {
   flex-direction: column;
   /* justify-content: space-around; */
   height: 920px;
-  border: 1px solid goldenrod;
+  border: 1px solid #EAEAEA;
 }
 
 .aside-article {
   height: 296px;
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
 }
 
 .aside-articles-image {
   width: 300px;
   margin-top: 20px;
+}
+
+#aside-article1, #aside-article2 {
+  border-bottom: 1px solid #E2E2E2;
 }
 
 #aside3 {
@@ -274,7 +313,6 @@ h2 {
   height: 188px;
   margin-top: 29px;
   margin-left: 0px;
-  border: 1px solid magenta;
 
 }
 
@@ -285,9 +323,21 @@ h2 {
 
 footer {
   height: 67px;
-  background-color: mistyrose;
+  color: #888888;
+  background-color: #222222;
+}
 
-  /* background-color: #222222; */
+#main-footer {
+  display: flex;
+  justify-content: center;
+}
+
+#copyright {
+  align-self: center;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1.3px;
+  line-height: 2;
 }
 
 #ig1 { background:#1abc9c;}
