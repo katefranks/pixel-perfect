@@ -235,7 +235,7 @@ h2 {
   color: #444444;
   background: #FFFFFF;
   border: 1px solid #EAEAEA;
-  height: 507px;
+  /* height: 507px; */
   /* width: 360px; */
   margin-bottom: 38px;
 
@@ -258,8 +258,8 @@ h2 {
   letter-spacing: 0.5px;
 }
 
-.aside-articles {
-
+#aside1 {
+  padding-bottom: 90px;
 }
 
 #aside1-header {
@@ -269,6 +269,14 @@ h2 {
 
 #aside1-header:hover {
   opacity: 0.5;
+}
+
+#bike-img {
+  border-radius: 50%;
+  border: 7px solid #FFFFFF;
+  width: 51%;
+  position: relative;
+  top: -80px;
 }
 
 #aside1-h1 {
