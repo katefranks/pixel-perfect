@@ -38,6 +38,7 @@ a:hover {
   /* border-bottom: 1px solid #E7E7E7; */
   height: 60px;
   width: 100VW;
+  display: flex;
 }
 
 #header-nav {
@@ -56,7 +57,21 @@ a:hover {
   font-family: 'Lato', sans-serif;
 }
 
+#social-media {
+  color: #444444;
+  font-size: 14px;
+  justify-content: space-between;
+  display: flex;
+  width: 155px;
+  height: 40px
+  margin: 0px;
 
+}
+
+#social-media:hover {
+  color: #CA5C3C;
+
+}
 
 .container {
   display: flex;
