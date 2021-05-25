@@ -32,6 +32,13 @@ a:hover {
   color: #CA5C3C;
 }
 
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  width: 79%;
+  /* margin: 0 auto; */
+}
+
 #main-header {
   background: #FFFFFF;
   border-bottom: 1px solid #E7E7E7;
@@ -73,7 +80,7 @@ nav{
   display: flex;
   width: 155px;
   height: 40px;
-  margin: 0px;
+  margin-top: 15px;
 }
 
 .circle-icon {
@@ -204,6 +211,7 @@ h2 {
 
 .article-footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   height: 83px;
   margin-left: 40px;
@@ -317,6 +325,7 @@ color: #444444;
 
 .aside1-social-media {
   display: flex;
+  flex-wrap: wrap;
   width: 49%;
   justify-content: space-between;
 }
@@ -371,6 +380,7 @@ color: #444444;
 .latest-posts {
   display: flex;
   flex-direction: column;
+
   /* justify-content: space-between; */
   height: 449px;
   margin-left: 30px;
@@ -380,7 +390,7 @@ color: #444444;
 
 .latest-post {
   display: flex;
-  /* border: 1px solid mistyrose; */
+  flex-wrap: wrap;
 }
 
 .latest-post-img {
